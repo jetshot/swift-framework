@@ -34,6 +34,7 @@
 		4681B60F258B4B8A001306AB /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4681B60E258B4B8A001306AB /* AppExtensions.swift */; };
 		4681B625258B4D22001306AB /* Edit Values Only in Resources */ = {isa = PBXBuildFile; fileRef = 4681B624258B4D22001306AB /* Edit Values Only */; };
 		4681B633258B4D7C001306AB /* User Specific Files in Resources */ = {isa = PBXBuildFile; fileRef = 4681B632258B4D7C001306AB /* User Specific Files */; };
+		4681B63C258B525C001306AB /* MyModuleName in Resources */ = {isa = PBXBuildFile; fileRef = 4681B63B258B525C001306AB /* MyModuleName */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		4681B60E258B4B8A001306AB /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
 		4681B624258B4D22001306AB /* Edit Values Only */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Edit Values Only"; sourceTree = "<group>"; };
 		4681B632258B4D7C001306AB /* User Specific Files */ = {isa = PBXFileReference; lastKnownFileType = text; path = "User Specific Files"; sourceTree = "<group>"; };
+		4681B63B258B525C001306AB /* MyModuleName */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MyModuleName; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		4681B53A258B2355001306AB /* swift-framework */ = {
 			isa = PBXGroup;
 			children = (
+				4681B63A258B51EA001306AB /* Templates */,
 				4681B5B6258B3728001306AB /* Utils */,
 				4681B60D258B4B69001306AB /* Helpers */,
 				4681B587258B2651001306AB /* Generics */,
@@ -231,6 +234,14 @@
 				4681B60E258B4B8A001306AB /* AppExtensions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4681B63A258B51EA001306AB /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				4681B63B258B525C001306AB /* MyModuleName */,
+			);
+			path = Templates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +352,7 @@
 				4681B545258B2356001306AB /* Assets.xcassets in Resources */,
 				4681B5F7258B4A23001306AB /* Editable Files in Resources */,
 				4681B5EF258B497B001306AB /* Dont Edit in Resources */,
+				4681B63C258B525C001306AB /* MyModuleName in Resources */,
 				4681B625258B4D22001306AB /* Edit Values Only in Resources */,
 				4681B5A7258B2C2F001306AB /* SectionTitleCell.xib in Resources */,
 				4681B57B258B25F6001306AB /* MyModuleNameTableViewCell.xib in Resources */,
