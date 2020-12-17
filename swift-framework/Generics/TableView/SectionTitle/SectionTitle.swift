@@ -11,7 +11,6 @@ struct SectionTitle: Section {
     
     func configureCell(tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: SectionTitleCell.self), for: indexPath) as! SectionTitleCell
-        
         return cell
     }
 }

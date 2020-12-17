@@ -53,7 +53,9 @@ extension MyModuleNameViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let section = sections[indexPath.section].configureCell(tableView: tableView, indexPath: indexPath)
         if indexPath.section == 0 {
-            (section as! SectionTitleCell).title = "Section 1 Title"
+            let cell = (section as! SectionTitleCell)
+            cell.title = "Section 1 Title"
+            
         }
         
         return section
