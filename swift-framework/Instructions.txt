@@ -1,0 +1,10 @@
+Duplicate Module Templates equal to modules you want to create
+
+duplicate swift-framework and rename new test project
+
+find & replace MyModuleName with the Actual ModuleName, must be case sensitive now open each specific module folders in Module Templates
+
+
+
+==========
+LargeHeaderTableViewCell
